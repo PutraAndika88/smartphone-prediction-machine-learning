@@ -5,7 +5,7 @@ Ini adalah proyek pertama predictive analytics untuk memenuhi submission dicodin
 
 ## Domain Proyek
 ### Latar Belakang
-Kebutuhan akan smartphone pada saat ini bukanlah menjadi kebutuhan tersier melainkan telah menjadi kebutuhan pokok setiap orang. Smartphone kini telah menjadi barang yang sifatnya vital dalam mendukung fungsi dari kehidupan manusia seperti membantu dalam bekerja dan untuk menjadi lebih produktif. Kebutuhan akan smartphone yang masif juga merupakan dampak dari kemajuan teknologi yang tiada henti sehingga manusia dipaksa untuk terus mengikuti perkembangan zaman untuk tetap kompetitif. Hal tersebut tentu pengetahuan dalam memilih smartphone dan memperkirakan harga smartphone yang sesuai budget dan kebutuhan menjadi salah satu hal yang penting untuk diperhatikan. 
+Kebutuhan akan smartphone pada saat ini bukanlah menjadi kebutuhan tersier melainkan telah menjadi kebutuhan pokok setiap orang. Smartphone kini telah menjadi barang yang sifatnya vital dalam mendukung fungsi dari kehidupan manusia seperti membantu dalam bekerja dan untuk menjadi lebih produktif. Kebutuhan akan smartphone yang masif juga merupakan dampak dari kemajuan teknologi yang tiada henti sehingga manusia dipaksa untuk terus mengikuti perkembangan zaman untuk tetap kompetitif. Fenomena tersebut tentu perusahaan elektronik khususnya produsen smartphone perlu untuk terus memenuhi permintaan pasar smartphone yang membludak dan tentunya perusahaan juga perlu untuk tetap kompetitif dalam bersaing dengan kompetitor. Oleh karena itu, analisis ini dilakukan untuk membantu perusahaan produsen samrtphone dalam menjaga sustainability bisnisnya agar tetap kompetitif di pasar smartphone dan tidak salah dalam memasang harga smartphone ketika produk barunya akan dirilis di pasar smartphone. 
 ![image](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/assets/133973000/f679c9ca-abbe-42e6-a4e5-e7f3627a89d2)
 
 
@@ -26,13 +26,13 @@ Proyek ini dibangun untuk perusahaan dengan karakteristik bisnis sebagai berikut
 
 ### Problem Statement
 
-1. Fitur apa yang paling berpengaruh terhadap harga smartphone?
-2. Berapa harga smartphone di pasaran berdasarkan karakteristik tertentu?
+1. Bagaimana cara mengidentifikasi terkait fitur yang paling berpengaruh terhadap harga smartphone?
+2. Bagaimana cara mengidentifikasi harga smartphone yang tepat di pasaran berdasarkan karakteristik atau spesifikasi tertentu?
 
 ### Goals
 
-1. Mengetahui fitur yang paling berpengaruh pada harga smartphone.
-2. Membuat model machine learning yang dapat memprediksi harga smartphone seakurat mungkin berdasarkan karakteristik tertentu.
+1. Perusahaan produsen smartphone dapat mengidentifikasi fitur smartphone yang paling mempengaruhi performa harga smartphone di pasaran.
+2. Perusahaan produsen smartphone mampu mengatur price pada setiap lini dan spesifikasi produk mereka sehingga sesuai dengan kondisi pasar untuk menjaga product competitiveness. 
 
 ### Solution Statement
 
@@ -80,29 +80,29 @@ Univariate Analysis adalah menganalisis setiap fitur secara terpisah atau parsia
 
 #### Analisis jumlah nilai unique pada setiap fitur kategorik
 Fitur Name dan Model memiliki sebaran sample yang cukup merata.
-<div><img src="https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/Fitur%201.png" width="220"/></div> <div><img src="https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/Fitur%202.png" width="220"/></div>
+<div><img src="https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/Fitur%201.png" width="1000"/></div> <div><img src="https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/Fitur%202.png" width="1000"/></div>
 
 Berikut adalah fitur dengan sample yang tidak merata :
 
-  <div><img src="https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/Fitur%20tidak%20merata.png" width="220"/></div>
+  <div><img src="https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/Fitur%20tidak%20merata.png" width="1000"/></div>
 
-  <div><img src="https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/Fitur%20tidak%20merata_8.png" width="220"/></div>
+  <div><img src="https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/Fitur%20tidak%20merata_8.png" width="1000"/></div>
 
-  <div><img src="https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/Fitur%20tidak%20merata_7.png" width="220"/></div>
+  <div><img src="https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/Fitur%20tidak%20merata_7.png" width="1000"/></div>
 
-  <div><img src="https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/Fitur%20tidak%20merata_6.png" width="220"/></div>
+  <div><img src="https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/Fitur%20tidak%20merata_6.png" width="1000"/></div>
 
-  <div><img src="https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/Fitur%20tidak%20merata_5.png" width="220"/></div>
+  <div><img src="https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/Fitur%20tidak%20merata_5.png" width="1000"/></div>
 
-  <div><img src="https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/Fitur%20tidak%20merata_4.png" width="220"/></div>
+  <div><img src="https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/Fitur%20tidak%20merata_4.png" width="1000"/></div>
 
-  <div><img src="https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/Fitur%20tidak%20merata_3.png" width="220"/></div>
+  <div><img src="https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/Fitur%20tidak%20merata_3.png" width="1000"/></div>
 
-  <div><img src="https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/Fitur%20tidak%20merata_2.png.png" width="220"/></div>
+  <div><img src="https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/Fitur%20tidak%20merata_2.png.png" width="1000"/></div>
 
 #### Analisis sebaran pada setiap fitur numerik
 
-<div><img src="https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/fitur%20numerik.png" width="450"/></div><br />
+<div><img src="https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/fitur%20numerik.png" width="1000"/></div><br />
 Berikut analisis dari grafik di atas :
 
 + Sebagian besar smartphone memiliki kapasitas battery 2000 - 3000 mAh dan terdistribusi normal.
@@ -118,25 +118,25 @@ Multivariate Analysis menunjukkan hubungan antara dua atau lebih fitur dalam dat
 
 + Fitur Size dan BHK (Menghapus BHK Outlier)
 
-  <div><img src="https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/kat_multi.png" width="220"/></div>
+  <div><img src="https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/kat_multi.png" width="1000"/></div>
   
-  <div><img src="https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/mv_kat_10.png" width="220"/></div>
+  <div><img src="https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/mv_kat_10.png" width="1000"/></div>
 
-  <div><img src="https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/mv_kat_2.png" width="220"/></div>
+  <div><img src="https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/mv_kat_2.png" width="1000"/></div>
 
-  <div><img src="https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/mv_kat_3.png" width="220"/></div>
+  <div><img src="https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/mv_kat_3.png" width="1000"/></div>
 
-  <div><img src="https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/mv_kat_4.png" width="220"/></div>
+  <div><img src="https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/mv_kat_4.png" width="1000"/></div>
 
-  <div><img src="https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/mv_kat_5.png" width="220"/></div>
+  <div><img src="https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/mv_kat_5.png" width="1000"/></div>
 
-  <div><img src="https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/mv_kat_6.png" width="220"/></div>
+  <div><img src="https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/mv_kat_6.png" width="1000"/></div>
 
-  <div><img src="https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/mv_kat_7.png" width="220"/></div>
+  <div><img src="https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/mv_kat_7.png" width="1000"/></div>
 
-  <div><img src="https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/mv_kat_8.png" width="220"/></div>
+  <div><img src="https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/mv_kat_8.png" width="1000"/></div>
 
-  <div><img src="https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/mv_kat_9.png" width="220"/></div>
+  <div><img src="https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/mv_kat_9.png" width="1000"/></div>
 
 Hasil Analisis
 + Pada fitur Operating system (OS), memiliki range harga yang sangat lebar yaitu 4500-18000 dengan harga terendah pada smartphone dengan OS Tizen dengan harga 4500 dan harga tertinggi yaitu smartphone dengan OS iPhone dengan harga tertinggi mencapai 18000. Jadi, fitur **Operating system** **sangat mempengaruhi** fluktuasi harga smartphone
@@ -156,9 +156,9 @@ Hasil Analisis
 Analisis ini dilakukan untuk melihat kolerasi antara fitur kategorik dengan fitur target (Price).
 
 + Pairplot
-  <div><img src="https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/num_multi.png" width="500"/></div>
+  <div><img src="https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/num_multi.png" width="1000"/></div>
 + Matrix Correlation
-  <div><img src="https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/matrix%20corr.png" width="500"/></div>
+  <div><img src="https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/matrix%20corr.png" width="1000"/></div>
   Seluruh fitur numerikal berkorelasi cukup kuat dalam mempengaruhi variabel target yaitu Price 
 
 ## Data preparation
@@ -193,7 +193,7 @@ Analisis ini dilakukan untuk melihat kolerasi antara fitur kategorik dengan fitu
 ## Evaluation
 
 Metrik evaluasi yang digunakan pada proyek ini adalah akurasi dan mean squared error (MSE). Akurasi menentukan tingkat kemiripan antara hasil prediksi dengan nilai yang sebenarnya (y_test). Mean squared error (MSE) mengukur error dalam model statistik dengan cara menghitung rata-rata error dari kuadrat hasil aktual dikurang hasil prediksi. Berikut formulan MSE :
-<div><img src="https://user-images.githubusercontent.com/107544829/188412654-f5dc0ae1-901b-470e-aae5-1f6b5fb68b4d.png" width="300"/></div>
+<div><img src="https://user-images.githubusercontent.com/107544829/188412654-f5dc0ae1-901b-470e-aae5-1f6b5fb68b4d.png" width="1000"/></div>
 
 Berikut hasil evaluasi pada proyek ini :
 
