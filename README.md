@@ -1,28 +1,42 @@
-# Proyek Pertama Smartphone Price Prediction
+# Proyek Prediksi Harga Ponsel Pintar
 ### Disusun Oleh : Putra Andika Pradana
 
-Ini adalah proyek pertama predictive analytics untuk memenuhi submission dicoding. Proyek ini membangun model machine learning yang dapat memprediksi harga smartphone berdasarkan fitur-fitur spesifikasi dari smartphone.
+Ini adalah proyek pertama untuk memenuhi tugas dicoding. Proyek ini membangun model machine learning yang dapat memprediksi harga ponsel pintar berdasarkan fitur-fitur spesifikasi dari ponsel tersebut.
 
 ## Domain Proyek
 ### Latar Belakang
-Kebutuhan akan smartphone pada saat ini bukanlah menjadi kebutuhan tersier melainkan telah menjadi kebutuhan pokok setiap orang. Smartphone kini telah menjadi barang yang sifatnya vital dalam mendukung fungsi dari kehidupan manusia seperti membantu dalam bekerja dan untuk menjadi lebih produktif. Menurut J. Degenhard (2024) bahwa Kebutuhan akan smartphone yang masif juga merupakan dampak dari kemajuan teknologi yang tiada henti sehingga manusia dipaksa untuk terus mengikuti perkembangan zaman untuk tetap kompetitif. Fenomena tersebut tentu perusahaan elektronik khususnya produsen smartphone perlu untuk terus memenuhi permintaan pasar smartphone yang membludak [1](https://www.statista.com/forecasts/1143723/smartphone-users-in-the-world#statisticContainer) dan tentunya perusahaan juga perlu untuk tetap kompetitif dalam bersaing dengan kompetitor. Selain itu, pengguna smartphone di Indonesia juga mengalami peingkatan secara signifikan dan menjadi yang terbanyak keempat di dunia pada tahun 2022 [2](https://dataindonesia.id/telekomunikasi/detail/pengguna-smartphone-indonesia-terbesar-keempat-dunia-pada-2022). Oleh karena itu, analisis ini dilakukan untuk membantu perusahaan produsen samrtphone dalam menjaga sustainability bisnisnya agar tetap kompetitif di pasar smartphone dan tidak salah dalam memasang harga smartphone ketika produk barunya akan dirilis di pasar smartphone. 
+Kebutuhan akan ponsel pintar pada saat ini bukanlah menjadi kebutuhan tersier melainkan telah menjadi kebutuhan pokok setiap orang. Ponsel pintar kini telah menjadi barang yang sifatnya vital dalam mendukung fungsi dari kehidupan manusia seperti membantu dalam bekerja dan untuk menjadi lebih produktif. Menurut J. Degenhard (2024) bahwa Kebutuhan akan ponsel pintar yang masif juga merupakan dampak dari kemajuan teknologi yang tiada henti sehingga manusia dipaksa untuk terus mengikuti perkembangan zaman untuk tetap kompetitif. Fenomena tersebut tentu perusahaan elektronik khususnya produsen ponsel pintar perlu untuk terus memenuhi permintaan pasar smartphone yang meningkat [1](https://www.statista.com/forecasts/1143723/smartphone-users-in-the-world#statisticContainer). Hal ini tentunya perusahaan juga perlu untuk tetap kompetitif dalam bersaing dengan kompetitornya. Selain itu, pengguna ponsel pintar di Indonesia juga mengalami peingkatan secara signifikan dan menjadi yang terbanyak keempat di dunia pada tahun 2022 [2](https://dataindonesia.id/telekomunikasi/detail/pengguna-smartphone-indonesia-terbesar-keempat-dunia-pada-2022). Oleh karena itu, analisis ini dilakukan untuk membantu perusahaan produsen ponsel pintar di Indonesia dalam menjaga sustainability bisnisnya agar tetap kompetitif di pasar ponsel pintar dan tidak salah dalam membuat keputusan terkait harga ponsel pintar ketika produk barunya akan dirilis di pasar ponsel Indonesia. 
 ![image](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/assets/133973000/f679c9ca-abbe-42e6-a4e5-e7f3627a89d2)
 
 
 [Referensi gambar](https://chatnews.id/read/harga-smartphone-5g-mulai-terjangkau)
 
 
-Harga dari setiap smartphone diukur dari nilai yang dimiliki oleh smartphone tersebut. Namun, harga ini tidak selalu pasti dan sulit untuk melakukan prediksi akurat secara manual. Faktor ketidakpastian perlu dikurangi oleh perusahaan yang memproduksi smartphone dengan membangun sistem prediksi yang dapat menentukan berapa harga pasaran smartphone tersebut yang pantas untuk spesifikasi smartphone tertentu.
+Harga dari setiap ponsel pintar diukur dari nilai yang dimiliki oleh ponsel tersebut. Namun, harga ini tidak selalu pasti dan sulit untuk melakukan prediksi akurat secara manual. Faktor ketidakpastian perlu dikurangi oleh perusahaan yang memproduksi ponsel pintar dengan membangun sistem prediksi yang dapat menentukan berapa harga pasaran ponsel pintar tersebut yang pantas untuk spesifikasi ponsel pintar tertentu.
 
-Dalam mencapai hal tersebut, maka dilakukan penelitian untuk memprediksi harga smartphone menggunakan model machine learning. Diharapkan model ini mampu memprediksi harga smartphone yang sesuai dengan harga pasar. Prediksi ini nantinya dijadikan acuan bagi perusahaan dalam mengedarkan smartphone dan mengatur harga pasar tepat dan kompetitif sehingga mampu meningkatkan profit lebih baik lagi bagi perusahaan.
+Dalam mencapai hal tersebut, maka dilakukan penelitian untuk memprediksi harga ponsel pintar menggunakan model pembelajaran mesin. Diharapkan model ini mampu memprediksi harga ponsel pintar yang sesuai dengan harga pasar. Prediksi ini nantinya dijadikan acuan bagi perusahaan dalam mengedarkan ponsel pintar dan mengatur harga pasar tepat dan kompetitif sehingga mampu meningkatkan profit lebih baik lagi bagi perusahaan.
 
 Referensi : [3](https://core.ac.uk/download/pdf/235044836.pdf)
 
-## Business Understanding
+## *Business Understanding*
 
 Proyek ini dibangun untuk perusahaan dengan karakteristik bisnis sebagai berikut :
 
-+ Perusahaan elektronik yang berfokus sebagai produsen smartphone dengan tipe smartphone mulai kelas entry-level hingga flagship
++ Perusahaan elektronik yang berfokus sebagai produsen smartphone dengan tipe ponsel pintar mulai kelas rendah hingga atas
+
+Dampak dari keberhasilan project ini
+A. Ekonomi dan Finansial
++ Perusahaan dapat memaksimalkan profit dan meminimalisir kesalahan dalam mengalokasikan sumber daya pada proses produksi
++ Perusahaan dapat mengidentifikasi tren harga ponsel pintar di pasar sesuai dengan spesifikasi dan karakteristik ponsel tersebut
++ Perusahaan dapat membuat keputusan bisnis yang lebih terukur terutama dalam hal penentuan harga ponsel tersebut
++ Perusahaan mampu untuk terus kompetitif dalam menghadapi kompetitor ponsel pintar yang semakin ketat di pasar ponsel pintar
+
+B. Sosial
++ Perusahaan dapat dengan jelas mengidentifikasi harga ponsel pintar di pasar sehingga konsumen diuntungkan dengan semakin menjamurnya pilihan ponsel pintar yang secara harga sangat bersaing
++ Konsumen diuntungkan dengan banyaknya pilihan ponsel pintar mulai dari kelas rendah hingga kelas tinggi sesuai dengan kondisi keuangan mereka
+
+C. Lingkungan
++ Project ini juga dapat digunakan untuk pertimbangan perusahaan dalam mengambil sebuah keputusan dalam alokasi sumber daya pada proses perakitan ponsel pintar dengan beberapa fitur tertentu sehingga meminimalisir pemborosan sumber daya yang dapat mengurangi potensi depresiasi lingkungan seperti terlalu berlebihan dalam penggunaan timah yang dapat berpotensi pada lingkungan
 
 ### Problem Statement
 
@@ -31,8 +45,9 @@ Proyek ini dibangun untuk perusahaan dengan karakteristik bisnis sebagai berikut
 
 ### Goals
 
-1. Perusahaan produsen smartphone dapat mengidentifikasi fitur smartphone yang paling mempengaruhi performa harga smartphone di pasaran.
-2. Perusahaan produsen smartphone mampu mengatur price pada setiap lini dan spesifikasi produk mereka sehingga sesuai dengan kondisi pasar untuk menjaga product competitiveness. 
++ Perusahaan produsen *smartphone* dapat mengidentifikasi fitur ponsel pintar yang paling mempengaruhi performa harga smartphone di pasaran.
++ Perusahaan produsen *smartphone* mampu mengatur *product competitiveness* mereka dengan harga yang sesuai pada setiap lini dan spesifikasi produk mereka yaitu tingkat harga yang selaras dengan fitur yang diterapkan pada sebuah *smartphone* tersebut sehingga sesuai dengan kondisi pasar yaitu setara antara spesifikasi yang ditawarkan dengan tren harga pasar sehingga tidak terlalu berlebihan atau sebaliknya dalam menentukan sebuah harga ponsel tersebut. Hal ini tentunya juga dapat digunakan perusahaan untuk menjaga tingkat persaingan produk mereka agar tetap berkelanjutan.
++ Berhasilnya proyek ini diukur dari tingkat keberhasilan model dalam membantu perusahaan dalam mengambil sebuah keputusan untuk memprediksi harga pasar dari *smartphone* tersebut berdasarkan fitur yang telah ditanamkan pada *smartphone* tersebut sehingga perusahaan mampu mengurangi kesalahan dalam menetapkan harga serta tujuan terkait menjaga *product competitiveness* dapat dipenuhi.
 
 ### Solution Statement
 
@@ -162,11 +177,11 @@ Analisis ini dilakukan untuk melihat kolerasi antara fitur kategorik dengan fitu
 ## Data preparation
 + One Hot Encoding
 
-  One hot encoding adalah teknik mengubah data kategorik menjadi data numerik dimana setiap kategori menjadi kolom baru dengan nilai 0 atau 1. Fitur yang akan diubah menjadi numerik pada proyek ini adalah fitur dengan tipe object atau kategorikal.
+  One hot encoding adalah teknik mengubah data kategorik menjadi data numerik dimana setiap kategori menjadi kolom baru dengan nilai 0 atau 1. Fitur yang akan diubah menjadi numerik pada proyek ini adalah fitur dengan tipe object atau kategorikal. Hal ini perlu dilakukan karena sebuah model pembelajaran mesin tidak mampu melakukan *training* pada data tipe *string* sehingga diperlukan transformasi data menjadi numerik agar mesin mampu membaca data tersebut. 
   
 + Train Test Split
 
-  Train test split aja proses membagi data menjadi data latih dan data uji. Data latih akan digunakan untuk membangun model, sedangkan data uji akan digunakan untuk menguji performa model. Pada proyek ini dataset sebesar 918 untuk data latih dan 102 untuk data uji.
+  Train test split aja proses membagi data menjadi data latih dan data uji. Data latih akan digunakan untuk membangun model, sedangkan data uji akan digunakan untuk menguji performa model. Pada proyek ini dataset sebesar 918 untuk data latih dan 102 untuk data uji. Metode ini perlu untuk dilakukan karena untuk membangun sebuah model *machine learning* diperlukan alokasi data untuk *training* dan *testing* dengan rasio tertentu supaya selain model dapat belajar, juga dapat melakukan *testing* pada data yang belum pernah dilihat sebelumnya. 
 
 ## Modeling
 
