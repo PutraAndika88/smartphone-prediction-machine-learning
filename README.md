@@ -98,8 +98,6 @@ Berikut adalah fitur dengan sample yang tidak merata :
 
   <div><img src="https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/Fitur%20tidak%20merata_3.png" width="1000"/></div>
 
-  <div><img src="https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/Fitur%20tidak%20merata_2.png.png" width="1000"/></div>
-
 #### Analisis sebaran pada setiap fitur numerik
 
 <div><img src="https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/fitur%20numerik.png" width="1000"/></div><br />
