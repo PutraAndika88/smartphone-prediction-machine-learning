@@ -24,7 +24,8 @@ Proyek ini dibangun untuk perusahaan dengan karakteristik bisnis sebagai berikut
 
 + Perusahaan elektronik yang berfokus sebagai produsen smartphone dengan tipe ponsel pintar mulai kelas rendah hingga atas
 
-Dampak dari keberhasilan project ini
+Dampak dari keberhasilan project ini:
+
 A. Ekonomi dan Finansial
 + Perusahaan dapat memaksimalkan profit dan meminimalisir kesalahan dalam mengalokasikan sumber daya pada proses produksi
 + Perusahaan dapat mengidentifikasi tren harga ponsel pintar di pasar sesuai dengan spesifikasi dan karakteristik ponsel tersebut
