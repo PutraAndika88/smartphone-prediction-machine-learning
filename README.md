@@ -5,7 +5,7 @@ Ini adalah proyek pertama predictive analytics untuk memenuhi submission dicodin
 
 ## Domain Proyek
 ### Latar Belakang
-Kebutuhan akan smartphone pada saat ini bukanlah menjadi kebutuhan tersier melainkan telah menjadi kebutuhan pokok setiap orang. Smartphone kini telah menjadi barang yang sifatnya vital dalam mendukung fungsi dari kehidupan manusia seperti membantu dalam bekerja dan untuk menjadi lebih produktif. Kebutuhan akan smartphone yang masif juga merupakan dampak dari kemajuan teknologi yang tiada henti sehingga manusia dipaksa untuk terus mengikuti perkembangan zaman untuk tetap kompetitif. Fenomena tersebut tentu perusahaan elektronik khususnya produsen smartphone perlu untuk terus memenuhi permintaan pasar smartphone yang membludak dan tentunya perusahaan juga perlu untuk tetap kompetitif dalam bersaing dengan kompetitor. Oleh karena itu, analisis ini dilakukan untuk membantu perusahaan produsen samrtphone dalam menjaga sustainability bisnisnya agar tetap kompetitif di pasar smartphone dan tidak salah dalam memasang harga smartphone ketika produk barunya akan dirilis di pasar smartphone. 
+Kebutuhan akan smartphone pada saat ini bukanlah menjadi kebutuhan tersier melainkan telah menjadi kebutuhan pokok setiap orang. Smartphone kini telah menjadi barang yang sifatnya vital dalam mendukung fungsi dari kehidupan manusia seperti membantu dalam bekerja dan untuk menjadi lebih produktif. Menurut J. Degenhard (2024) bahwa Kebutuhan akan smartphone yang masif juga merupakan dampak dari kemajuan teknologi yang tiada henti sehingga manusia dipaksa untuk terus mengikuti perkembangan zaman untuk tetap kompetitif. Fenomena tersebut tentu perusahaan elektronik khususnya produsen smartphone perlu untuk terus memenuhi permintaan pasar smartphone yang membludak [1](https://www.statista.com/forecasts/1143723/smartphone-users-in-the-world#statisticContainer) dan tentunya perusahaan juga perlu untuk tetap kompetitif dalam bersaing dengan kompetitor. Selain itu, pengguna smartphone di Indonesia juga mengalami peingkatan secara signifikan dan menjadi yang terbanyak keempat di dunia pada tahun 2022 [2](https://dataindonesia.id/telekomunikasi/detail/pengguna-smartphone-indonesia-terbesar-keempat-dunia-pada-2022). Oleh karena itu, analisis ini dilakukan untuk membantu perusahaan produsen samrtphone dalam menjaga sustainability bisnisnya agar tetap kompetitif di pasar smartphone dan tidak salah dalam memasang harga smartphone ketika produk barunya akan dirilis di pasar smartphone. 
 ![image](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/assets/133973000/f679c9ca-abbe-42e6-a4e5-e7f3627a89d2)
 
 
@@ -16,7 +16,7 @@ Harga dari setiap smartphone diukur dari nilai yang dimiliki oleh smartphone ter
 
 Dalam mencapai hal tersebut, maka dilakukan penelitian untuk memprediksi harga smartphone menggunakan model machine learning. Diharapkan model ini mampu memprediksi harga smartphone yang sesuai dengan harga pasar. Prediksi ini nantinya dijadikan acuan bagi perusahaan dalam mengedarkan smartphone dan mengatur harga pasar tepat dan kompetitif sehingga mampu meningkatkan profit lebih baik lagi bagi perusahaan.
 
-Referensi : [Prediksi Harga Ponsel Menggunakan Metode Random Forest](https://core.ac.uk/download/pdf/235044836.pdf)
+Referensi : [3](https://core.ac.uk/download/pdf/235044836.pdf)
 
 ## Business Understanding
 
@@ -199,3 +199,11 @@ Berikut hasil evaluasi pada proyek ini :
   <div><img src="https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/evaluation.png" width="300"/></div>
 
 Dari hasil evaluasi dapat dilihat bahwa model dengan algoritma Random Forest memiliki akurasi lebih tinggi baik dan tingkat error lebih kecil dibandingkan algoritma lainnya dalam proyek ini.
+
+## Reference
+[1] 	J. Degenhard, "Statista," 30 January 2024. [Online]. Available: https://www.statista.com/forecasts/1143723/smartphone-users-in-the-world#statisticContainer.
+
+[2] 	S. Sadya, "Dataindonesia," 17 January 2023. [Online]. Available: https://dataindonesia.id/telekomunikasi/detail/pengguna-smartphone-indonesia-terbesar-keempat-dunia-pada-2022.
+
+[3] 	V. W. Siburian and I. E. Mulyana, "Prediksi Harga Ponsel Menggunakan Metode Random Forest," Computer Science and ICT, pp. 144-147, 2018. DOI: seminar.ilkom.unsri.ac.id:article/1992
+
