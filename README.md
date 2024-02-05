@@ -7,9 +7,8 @@ Ini adalah proyek pertama untuk memenuhi tugas dicoding. Proyek ini membangun mo
 ### 1. Latar Belakang
 Kebutuhan akan *smartphone* atau ponsel pintar pada saat ini bukanlah menjadi kebutuhan tersier melainkan telah menjadi kebutuhan pokok setiap orang. Ponsel pintar kini telah menjadi barang yang sifatnya vital dalam mendukung fungsi dari kehidupan manusia seperti membantu dalam bekerja dan untuk menjadi lebih produktif. Menurut J. Degenhard (2024) bahwa Kebutuhan akan ponsel pintar yang masif juga merupakan dampak dari kemajuan teknologi yang tiada henti sehingga manusia dipaksa untuk terus mengikuti perkembangan zaman untuk tetap kompetitif. Fenomena tersebut tentu perusahaan elektronik khususnya produsen ponsel pintar perlu untuk terus memenuhi permintaan pasar smartphone yang meningkat [[1]](https://www.statista.com/forecasts/1143723/smartphone-users-in-the-world#statisticContainer). Hal ini tentunya perusahaan juga perlu untuk tetap kompetitif dalam bersaing dengan kompetitornya. Selain itu, pengguna ponsel pintar di Indonesia juga mengalami peingkatan secara signifikan dan menjadi yang terbanyak keempat di dunia pada tahun 2022 [[2]](https://dataindonesia.id/telekomunikasi/detail/pengguna-smartphone-indonesia-terbesar-keempat-dunia-pada-2022). Oleh karena itu, analisis ini dilakukan untuk membantu perusahaan produsen ponsel pintar di Indonesia dalam menjaga sustainability bisnisnya agar tetap kompetitif di pasar ponsel pintar dan tidak salah dalam membuat keputusan terkait harga ponsel pintar ketika produk barunya akan dirilis di pasar ponsel Indonesia. 
 
-![image](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/assets/133973000/f679c9ca-abbe-42e6-a4e5-e7f3627a89d2)
-###### Gambar 1.1 *Smartphone*
-
+##### **Gambar 1.1 *Smartphone***
+![image](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/blob/main/img/smartphone.png?raw=true)
 
 [Referensi gambar](https://chatnews.id/read/harga-smartphone-5g-mulai-terjangkau)
 
@@ -62,19 +61,19 @@ Dampak dari keberhasilan project ini:
 
 - Perusahaan produsen *smartphone* menghadapi tantangan dalam menentukan harga dari produk *smartphone* baru mereka dengan akurat dan adil bagi calon pemegang polis. Hal ini disebabkan oleh keterbatasan dalam memahami faktor-faktor yang mempengaruhi besaran harga *smartphone*.
 
-- Dalam proyek ini, kami akan mengatasi masalah ini dengan mengembangkan model analisis prediktif yang dapat memperkirakan harga *smartphone* dengan tingkat akurasi yang lebih tinggi.
+- Dalam proyek ini, memiliki tujuan untuk mengatasi rumusan masalah dengan mengembangkan model analisis prediktif yang dapat memperkirakan harga *smartphone* dengan tingkat akurasi yang lebih tinggi.
 
 2. Bagaimana caranya untuk meningkatkan transparansi dalam penetapan harga *smartphone*?
 
 - Calon pembeli *smartphone* seringkali merasa bahwa penetapan harga *smartphone* dilakukan secara tidak adil atau tidak transparan. Mereka tidak memahami faktor-faktor apa yang menjadi dasar penentuan harga *smartphone*.
 
-- Dalam proyek ini, kami akan mencoba meningkatkan transparansi dengan mengidentifikasi faktor-faktor yang paling signifikan dalam menentukan harga *smartphone*, sehingga calon pemegang polis dapat memahami alasan di balik harga *smartphone* yang ditawarkan.
+- Dalam proyek ini, memiliki tujuan untuk meningkatkan transparansi dengan mengidentifikasi faktor-faktor yang paling signifikan dalam menentukan harga *smartphone*, sehingga calon pemegang polis dapat memahami alasan di balik harga *smartphone* yang ditawarkan.
 
 3. Bagaimana risiko keuangan yang terkait dengan penentuan harga *smartphone* yang tidak akurat dapat dikurangi?
 
 - Penentuan harga *smartphone* yang tidak akurat dapat menyebabkan risiko keuangan bagi perusahaan produsen *smartphone*. Jika harga *smartphone* yang ditetapkan terlalu rendah, perusahaan dapat menghadapi kerugian finansial terutama masalah profitabilitas perusahaan.
 
-- Di sisi lain, premi yang terlalu tinggi dapat mengurangi daya tarik produk asuransi. Dalam proyek ini, kami akan membantu mengurangi risiko keuangan dengan memperkirakan premi yang lebih akurat berdasarkan faktor-faktor risiko yang relevan.
+- Di sisi lain, premi yang terlalu tinggi dapat mengurangi daya tarik produk asuransi. Dalam proyek ini, memiliki tujuan untuk membantu mengurangi risiko keuangan dengan memperkirakan premi yang lebih akurat berdasarkan faktor-faktor risiko yang relevan.
 
 Dalam konteks penentuan harga *smartphone*, berikut adalah contoh konkret dari faktor-faktor spesifik yang seringkali menyebabkan masalah-masalah yang disebutkan sebelumnya:
 
@@ -127,7 +126,7 @@ Solusi yang diberikan untuk proyek ini melibatkan beberapa tahapan dan algoritma
 
 - Metrik MSE (*Mean Squared Error*) akan digunakan untuk melakukan evaluasi pembanding antara model-model yang dikembangkan.
 - MSE adalah metrik yang umum digunakan dalam masalah regresi untuk mengukur sejauh mana selisih antara nilai prediksi dan nilai sebenarnya.
-- Dengan menggunakan metrik MSE, kita dapat mengukur tingkat keakuratan model dalam memprediksi harga *smartphone*.
+- Metrik MSE dapat digunakan untuk mengukur tingkat keakuratan model dalam memprediksi harga *smartphone*.
 
 Melalui pendekatan ini, diharapkan solusi yang diberikan dapat memenuhi tujuan proyek dalam mengembangkan model analisis prediktif yang akurat dan efektif untuk memprediksi harga *smartphone*.
 
@@ -137,6 +136,7 @@ Dataset yang digunakan dalam proyek ini merupakan data harga smartphone dengan b
 
 ### A. Ringkasan Data Statistik dari Sampel Data
 
+#### **Tabel 5.1 Ringkasan Statistik Fitur Numerikal**
 | | ***Battery*** | *Screen Size* | *Resolution* X | *Resolution* Y | *Processor* | RAM | *Internal Storage* | *Rear Camera* | *Front Camera* |
 |-----|----------|-----------------------|----------------|--------------------|--------|--------|----------------|-------------------------|-------------------------|
 | count | 918.000000 | 918.000000 | 918.000000 | 918.000000 | 918.000000 | 918.000000 | 918.000000 | 918.000000 | 918.000000 |
@@ -204,9 +204,9 @@ Visualisasi Boxplot:
    - Garis di dalam kotak menunjukkan posisi median.
    - Whisker atau garis lurus yang terhubung dengan kotak menunjukkan rentang data yang dianggap tidak sebagai outlier.
    - Titik-titik di luar whisker menunjukkan adanya outlier.
-  
-![outliers_boxplot](https://github.com/nikofebrianur/Machine-Learning-Terapan/assets/42314371/994b7ef1-fe6d-4bc4-94a5-5800322fe11f)
-###### Gambar D.1 Contoh Visualisasi Outlier
+
+#### **Gambar D.1 Contoh Visualisasi Outlier**
+![outliers_boxplot](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/blob/main/img/outlier.png?raw=true)
 
 ### E. Univariate Analysis
 
@@ -215,42 +215,44 @@ Univariate Analysis adalah menganalisis setiap fitur secara terpisah atau parsia
 #### Analisis jumlah nilai unique pada setiap fitur kategorik
 Fitur Name dan Model memiliki sebaran sample yang cukup merata.
 
-![Fitur Merata](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/blob/main/img/fitur%20merata.png)
-###### Gambar E.1 Fitur Model
+#### **Gambar E.1 Fitur Model**
+![Fitur Merata](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/blob/main/img/fitur%20merata.png?raw=true)
 
-![Fitur Merata](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/blob/main/img/fitur%20merata%202.png)
-###### Gambar E.2 Fitur *Name*
+#### **Gambar E.2 Fitur *Name**
+![Fitur Merata](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/blob/main/img/fitur%20merata%202.png?raw=true)
+
 
 Berikut adalah fitur dengan sample yang tidak merata :
 
-  ![Fitur Tidak Merata 1](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/blob/main/img/Fitur%20tidak%20merata.png)
-  ###### Gambar E.3 Fitur *Brand*
+  #### **Gambar E.3 Fitur *Brand***
+  ![Fitur Tidak Merata 1](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/blob/main/img/Fitur%20tidak%20merata.png?raw=true)
   
-  ![Tidak Rata 2](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/blob/main/img/Fitur%20tidak%20merata_2.png)
-  ###### Gambar E.4 Fitur *Touchscreen*
-
-  ![Tidak rata 3](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/blob/main/img/Fitur%20tidak%20merata_3.png)
-  ###### Gambar E.5 Fitur *Operating Systems*
-
-  ![Tidak Rata 4](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/blob/main/img/Fitur%20tidak%20merata_4.png)
-  ###### Gambar E.6 Fitur *Wi-Fi*
-
-  ![Tidak Rata 5](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/blob/main/img/Fitur%20tidak%20merata_5.png)
-  ###### Gambar E.7 Fitur *Bluetooth*
-
-  ![Tidak Rata 6](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/blob/main/img/Fitur%20tidak%20merata_6.png)
-  ###### Gambar E.8 Fitur GPS
-
-  ![Tidak Rata 7](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/blob/main/img/Fitur%20tidak%20merata_7.png)
-  ###### Gambar E.9 Fitur 3G
-
-  ![Tidak Rata 8](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/blob/main/img/Fitur%20tidak%20merata_8.png)
-  ###### Gambar E.10 Fitur 4G/ LTE
+  #### **Gambar E.4 Fitur *Touchscreen***
+  ![Tidak Rata 2](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/blob/main/img/Fitur%20tidak%20merata_2.png?raw=true)
+  
+  #### **Gambar E.5 Fitur *Operating Systems***
+  ![Tidak rata 3](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/blob/main/img/Fitur%20tidak%20merata_3.png?raw=true)
+  
+  #### **Gambar E.6 Fitur *Wi-Fi***
+  ![Tidak Rata 4](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/blob/main/img/Fitur%20tidak%20merata_4.png?raw=true)
+  
+  #### **Gambar E.7 Fitur *Bluetooth***
+  ![Tidak Rata 5](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/blob/main/img/Fitur%20tidak%20merata_5.png?raw=true)
+  
+  #### **Gambar E.8 Fitur GPS**
+  ![Tidak Rata 6](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/blob/main/img/Fitur%20tidak%20merata_6.png?raw=true)
+  
+  #### **Gambar E.9 Fitur 3G**
+  ![Tidak Rata 7](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/blob/main/img/Fitur%20tidak%20merata_7.png?raw=true)
+  
+  #### **Gambar E.10 Fitur 4G/ LTE**
+  ![Tidak Rata 8](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/blob/main/img/Fitur%20tidak%20merata_8.png?raw=true)
+  
 
 ### F. Analisis sebaran pada setiap fitur numerik
 
-![Fitur Numerik](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/blob/main/img/fitur%20numerik.png)
-###### Gambar F.1 Fitur Numerikal
+#### **Gambar F.1 Fitur Numerikal**
+![Fitur Numerik](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/blob/main/img/fitur%20numerik.png?raw=true)
 
 Berikut analisis dari grafik di atas :
 
@@ -265,37 +267,38 @@ Multivariate Analysis menunjukkan hubungan antara dua atau lebih fitur dalam dat
 
 #### Analisis fitur kategorik
 
-+ Fitur kategorik terhadap Price 
-
-  ![kategorik 1](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/blob/main/img/Multivariate_Categorical%200.png)
-  ###### Gambar G.1 *Price* vs *Operating Systems*
++ Fitur kategorik terhadap Price
   
-  ![kategorik 1](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/blob/main/img/Multivariate_Categorical%201.png)
-  ###### Gambar G.2 *Price* vs *Models*
-
-  ![kategorik 1](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/blob/main/img/Multivariate_Categorical%202.png)
-  ###### Gambar G.3 *Price* vs *Wi-Fi*
-
-  ![kategorik 1](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/blob/main/img/Multivariate_Categorical%203.png)
-  ###### Gambar G.4 *Price* vs *Touchscreen*
-
-  ![kategorik 1](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/blob/main/img/Multivariate_Categorical%204.png)
-  ###### Gambar G.5 *Price* vs GPS
-
-  ![kategorik 1](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/blob/main/img/Multivariate_Categorical%205.png)
-  ###### Gambar G.6 *Price* vs *Blueetooth*
-
-  ![kategorik 1](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/blob/main/img/Multivariate_Categorical%206.png)
-  ###### Gambar G.7 *Price* vs 3G
-
-  ![kategorik 1](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/blob/main/img/Multivariate_Categorical%207.png)
-  ###### Gambar G.8 *Price* vs 4G/ LTE
-
-  ![kategorik 1](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/blob/main/img/Multivariate_Categorical%208.png)
-  ###### Gambar G.9 *Price* vs *Brand*
-
-  ![kategorik 1](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/blob/main/img/Multivariate_Categorical%209.png)
-  ###### Gambar G.9 *Price* vs *Name*
+  #### **Gambar G.1 *Price* vs *Operating Systems***
+  ![kategorik 1](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/blob/main/img/Multivariate_Categorical%200.png?raw=true)
+  
+  #### **Gambar G.2 *Price* vs *Models***
+  ![kategorik 1](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/blob/main/img/Multivariate_Categorical%201.png?raw=true)
+  
+  #### **Gambar G.3 *Price* vs *Wi-Fi***
+  ![kategorik 1](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/blob/main/img/Multivariate_Categorical%202.png?raw=true)
+  
+  #### **Gambar G.4 *Price* vs *Touchscreen***
+  ![kategorik 1](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/blob/main/img/Multivariate_Categorical%203.png?raw=true)
+  
+  #### **Gambar G.5 *Price* vs GPS**
+  ![kategorik 1](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/blob/main/img/Multivariate_Categorical%204.png?raw=true)
+  
+  #### **Gambar G.6 *Price* vs *Blueetooth***
+  ![kategorik 1](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/blob/main/img/Multivariate_Categorical%205.png?raw=true)
+  
+  #### **Gambar G.7 *Price* vs 3G**
+  ![kategorik 1](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/blob/main/img/Multivariate_Categorical%206.png?raw=true)
+  
+  #### **Gambar G.8 *Price* vs 4G/ LTE**
+  ![kategorik 1](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/blob/main/img/Multivariate_Categorical%207.png?raw=true)
+  
+  #### **Gambar G.9 *Price* vs *Brand***
+  ![kategorik 1](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/blob/main/img/Multivariate_Categorical%208.png?raw=true)
+  
+  #### **Gambar G.9 *Price* vs *Name***
+  ![kategorik 1](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/blob/main/img/Multivariate_Categorical%209.png?raw=true)
+  
   
 Hasil Analisis
 + Pada fitur Operating system (OS), memiliki range harga yang sangat lebar yaitu 4500-18000 dengan harga terendah pada smartphone dengan OS Tizen dengan harga 4500 dan harga tertinggi yaitu smartphone dengan OS iPhone dengan harga tertinggi mencapai 18000. Jadi, fitur **Operating system** **sangat mempengaruhi** fluktuasi harga smartphone
@@ -316,13 +319,15 @@ Analisis ini dilakukan untuk melihat kolerasi antara fitur kategorik dengan fitu
 
 + Pairplot
   
-  ![Pairplot](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/blob/main/img/pairplot.png)
-  ###### Gambar H.1 *Pairplot*
+  ##### Gambar H.1 *Pairplot*
+  ![Pairplot](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/blob/main/img/pairplot.png?raw=true)
+  
   
 + Matrix Correlation
   
-  ![corr](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/blob/main/img/matrix%20corr.png)
-  ###### Gambar H.2 *Matrix Correlation*
+  ##### Gambar H.2 *Matrix Correlation*
+  ![corr](https://github.com/PutraAndika88/smartphone-prediction-machine-learning/blob/main/img/matrix%20corr.png?raw=true)
+  
   
   Seluruh fitur numerikal berkorelasi cukup kuat dalam mempengaruhi variabel target yaitu Price 
 
@@ -333,7 +338,7 @@ Analisis ini dilakukan untuk melihat kolerasi antara fitur kategorik dengan fitu
   
 + Train Test Split
 
-  Train test split aja proses membagi data menjadi data latih dan data uji. Data latih akan digunakan untuk membangun model, sedangkan data uji akan digunakan untuk menguji performa model. Pada proyek ini dataset sebesar 918 untuk data latih dan 102 untuk data uji. Metode ini perlu untuk dilakukan karena untuk membangun sebuah model *machine learning* diperlukan alokasi data untuk *training* dan *testing* dengan rasio tertentu supaya selain model dapat belajar, juga dapat melakukan *testing* pada data yang belum pernah dilihat sebelumnya. Proses pembagian dataset menjadi data training dan data testing penting dalam pengembangan model *machine learning*. Ini dilakukan untuk mengevaluasi performa model pada data yang belum pernah dilihat sebelumnya dan untuk menghindari *overfitting*. Data training digunakan untuk melatih model, sedangkan data testing digunakan untuk menguji seberapa baik model yang dilatih dapat melakukan prediksi pada data yang belum pernah dilihat sebelumnya. Dengan memisahkan data training dan data testing, kita dapat mengukur sejauh mana model dapat mengeneralisasi dan memprediksi dengan akurat pada data baru. Rasio 80:20 sering digunakan sebagai perbandingan pembagian data training dan data testing. Data training sebesar 80% digunakan untuk melatih model, sementara data testing sebesar 20% digunakan untuk menguji performa model. Rasio ini merupakan aturan praktis umum yang memberikan keseimbangan antara memiliki jumlah data yang cukup untuk melatih model dan menyediakan data yang cukup untuk menguji performa model. Namun, rasio ini dapat bervariasi tergantung pada karakteristik dataset dan kebutuhan proyek tertentu.
+  Train test split aja proses membagi data menjadi data latih dan data uji. Data latih akan digunakan untuk membangun model, sedangkan data uji akan digunakan untuk menguji performa model. Pada proyek ini dataset sebesar 918 untuk data latih dan 102 untuk data uji. Metode ini perlu untuk dilakukan karena untuk membangun sebuah model *machine learning* diperlukan alokasi data untuk *training* dan *testing* dengan rasio tertentu supaya selain model dapat belajar, juga dapat melakukan *testing* pada data yang belum pernah dilihat sebelumnya. Proses pembagian dataset menjadi data training dan data testing penting dalam pengembangan model *machine learning*. Ini dilakukan untuk mengevaluasi performa model pada data yang belum pernah dilihat sebelumnya dan untuk menghindari *overfitting*. Data training digunakan untuk melatih model, sedangkan data testing digunakan untuk menguji seberapa baik model yang dilatih dapat melakukan prediksi pada data yang belum pernah dilihat sebelumnya. Dengan memisahkan data training dan data testing, memungkinkan untuk mengukur sejauh mana model dapat mengeneralisasi dan memprediksi dengan akurat pada data baru. Rasio 80:20 sering digunakan sebagai perbandingan pembagian data training dan data testing. Data training sebesar 80% digunakan untuk melatih model, sementara data testing sebesar 20% digunakan untuk menguji performa model. Rasio ini merupakan aturan praktis umum yang memberikan keseimbangan antara memiliki jumlah data yang cukup untuk melatih model dan menyediakan data yang cukup untuk menguji performa model. Namun, rasio ini dapat bervariasi tergantung pada karakteristik dataset dan kebutuhan proyek tertentu.
 
 ## 8. Modeling
 
@@ -359,12 +364,23 @@ Analisis ini dilakukan untuk melihat kolerasi antara fitur kategorik dengan fitu
 Berikut adalah urutan tahapan yang dilakukan dalam proses modeling:
  - Melatih model dengan data training dengan menggunakan algoritma *Random Forest Regression*, *K-Nearest Neighbor*, dan *AdaBoost*
  - Dalam tahap training, pengujian model dilakukan dengan menggunakan parameter default bawaan *library* yaitu *scikit-learn*
+ - Pada model *AdaBoost* menggunakan parameter regresi sebagai berikut
+    - `n_estimators` = 50
+    - `learning_rate` = 0.05
+    - `random_state` = 55
+ - Pada model *K-Nearest Neighbors* menggunakan parameter regresi sebagai berikut
+    - `n_neighbors` = 10
+    - menggunakan k = 10 tetangga dan metric Euclidean untuk mengukur jarak antara titik.
+ - Pada model *random forest* menggunakan parameter regresi sebagai berikut
+    - `n_estimators` = 50
+    - `max_depth` = 16
+    - `random_state` = 55
  - Melakukan pengujian dengan data training
  - Melakukan pengujian dengan data testing
  - Pengukuran menggunakan metriks *MSE*,MAE,R*MSE* dan R2 dengan menggunakan lirbary sklearn. 
  - Melihat hasil performa model antara hasil data training dan data testing
 
-## Evaluation
+## 9. *Evaluation*
 
 ### *MSE*
 Mean Square Error (*MSE*) adalah salah satu metrik evaluasi yang digunakan untuk mengukur sejauh mana perbedaan antara nilai prediksi dan nilai sebenarnya dalam masalah regresi. 
@@ -407,11 +423,13 @@ Metrik evaluasi yang digunakan pada proyek ini adalah akurasi dan mean squared e
 Berikut hasil evaluasi pada proyek ini :
 
 + Mean Squared Error (MSE)
-  ![Evaluasi](https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/evaluation.png)
+
+  #### **Gambar 9.1 Perbandingan Metrik MSE**
+  ![Evaluasi](https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/evaluation.png?raw=true)
   
 Dari hasil evaluasi dapat dilihat bahwa model dengan algoritma Random Forest memiliki akurasi lebih tinggi baik dan tingkat error lebih kecil dibandingkan algoritma lainnya dalam proyek ini.
 
-Berdasarkan hasil evaluasi model setelah menggunakan *hyperparameter*, kita dapat mengambil beberapa kesimpulan:
+Berdasarkan hasil evaluasi model, dapat diambil beberapa kesimpulan sebagai berikut:
 
 1. *Mean Squared Error* (*MSE*) - *Train Set*:
    - Model *Random Forest* memiliki *MSE* *train set* sebesar 2166.718234.
