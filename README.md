@@ -408,6 +408,7 @@ Berikut hasil evaluasi pada proyek ini :
 
 + Mean Squared Error (MSE)
   ![Evaluasi](https://github.com/PutraAndika88/Smartphone-Predictive-Analysis/blob/main/evaluation.png)
+  
 Dari hasil evaluasi dapat dilihat bahwa model dengan algoritma Random Forest memiliki akurasi lebih tinggi baik dan tingkat error lebih kecil dibandingkan algoritma lainnya dalam proyek ini.
 
 Berdasarkan hasil evaluasi model setelah menggunakan *hyperparameter*, kita dapat mengambil beberapa kesimpulan:
