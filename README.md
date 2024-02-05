@@ -113,19 +113,19 @@ Penggunaan metrik evaluasi yang tepat dan relevan dengan tujuan proyek akan memb
 
 Solusi yang diberikan untuk proyek ini melibatkan beberapa tahapan dan algoritma yang digunakan. Berikut adalah penjelasan yang lebih rinci mengenai solusi yang diberikan:
 
-1. Eksplorasi Data (Exploratory Data Analysis - EDA):
+1. Eksplorasi Data (*Exploratory Data Analysis* - EDA):
 
 - Sebelum melatih model, proses EDA akan dilakukan untuk memahami karakteristik data yang ada. EDA akan membantu dalam mengidentifikasi pola, melihat hubungan antar variabel, dan menemukan wawasan yang berguna dalam memprediksi harga *smartphone*.
 
-2. Algoritma Random Forest Regression:
+2. Algoritma *Random Forest Regression*:
 
-- Algoritma Random Forest Regression dipilih sebagai algoritma machine learning yang akan digunakan dalam proyek ini.
-- Random Forest Regression adalah algoritma yang digunakan untuk memodelkan dan memprediksi data regresi. Dalam proyek ini, Random Forest Regression akan digunakan untuk memprediksi harga 8smartphone* berdasarkan fitur-fitur yang relevan.
-- Algoritma random forest adalah salah satu algoritma supervised learning. Algoritma ini dapat digunakan untuk menyelesaikan masalah klasifikasi dan regresi. Random forest juga merupakan algoritma yang sering digunakan karena cukup sederhana tetapi memiliki stabilitas yang mumpuni.
+- Algoritma *Random Forest Regression* dipilih sebagai algoritma machine learning yang akan digunakan dalam proyek ini.
+- *Random Forest Regression* adalah algoritma yang digunakan untuk memodelkan dan memprediksi data regresi. Dalam proyek ini, Random Forest Regression akan digunakan untuk memprediksi harga 8smartphone* berdasarkan fitur-fitur yang relevan.
+- Algoritma *random forest* adalah salah satu algoritma supervised learning. Algoritma ini dapat digunakan untuk menyelesaikan masalah klasifikasi dan regresi. Random forest juga merupakan algoritma yang sering digunakan karena cukup sederhana tetapi memiliki stabilitas yang mumpuni.
 
 3. Evaluasi dengan Metrik MSE (Mean Squared Error):
 
-- Metrik MSE (Mean Squared Error) akan digunakan untuk melakukan evaluasi pembanding antara model-model yang dikembangkan.
+- Metrik MSE (*Mean Squared Error*) akan digunakan untuk melakukan evaluasi pembanding antara model-model yang dikembangkan.
 - MSE adalah metrik yang umum digunakan dalam masalah regresi untuk mengukur sejauh mana selisih antara nilai prediksi dan nilai sebenarnya.
 - Dengan menggunakan metrik MSE, kita dapat mengukur tingkat keakuratan model dalam memprediksi harga *smartphone*.
 
@@ -339,12 +339,12 @@ Analisis ini dilakukan untuk melihat kolerasi antara fitur kategorik dengan fitu
 
 + Algoritma
   Penelitian ini melakukan pemodelan dengan 3 algoritma, yaitu K-Nearest Neighbour, Random Forest, dan Adaptive Boosting (AdaBoost)
-  + K-Nearest Neighbour
-    K-Nearest Neighbour bekerja dengan membandingkan jarak satu sampel ke sampel pelatihan lain dengan memilih sejumlah k tetangga terdekat. Proyek ini menggunakan [sklearn.neighbors.KNeighborsRegressor](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsRegressor.html) dengan memasukkan X_train dan y_train dalam membangun model. Parameter yang digunakan pada proyek ini adalah :
+  + *K-Nearest Neighbour*
+    *K-Nearest Neighbour* bekerja dengan membandingkan jarak satu sampel ke sampel pelatihan lain dengan memilih sejumlah k tetangga terdekat. KNN adalah algoritma yang relatif sederhana dibandingkan dengan algoritma lain. Algoritma KNN menggunakan ‘kesamaan fitur’ untuk memprediksi nilai dari setiap data yang baru. Dengan kata lain, setiap data baru diberi nilai berdasarkan seberapa mirip titik tersebut dalam set pelatihan. KNN bekerja dengan membandingkan jarak satu sampel ke sampel pelatihan lain dengan memilih sejumlah k tetangga terdekat (dengan k adalah sebuah angka positif). Maka dari itu, algoritma ini disebut *K-nearest neighbor* (sejumlah k tetangga terdekat). KNN bisa digunakan untuk kasus klasifikasi dan regresi.Proyek ini menggunakan [sklearn.neighbors.KNeighborsRegressor](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsRegressor.html) dengan memasukkan X_train dan y_train dalam membangun model. Parameter yang digunakan pada proyek ini adalah :
     + `n_neighbors` = Jumlah k tetangga tedekat.
 
-  + Random Forest
-    Algoritma random forest adalah teknik dalam machine learning dengan metode ensemble. Teknik ini beroperasi dengan membangun banyak decision tree pada waktu pelatihan. Proyek ini menggunakan [sklearn.ensemble.RandomForestRegressor](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html) dengan memasukkan X_train dan y_train dalam membangun model. Parameter yang digunakan pada proyek ini adalah :
+  + *Random Forest*
+    Algoritma random forest adalah teknik dalam machine learning dengan metode ensemble. Teknik ini beroperasi dengan membangun banyak *decision tree* pada waktu pelatihan. Algoritma *random forest* adalah salah satu algoritma supervised learning. Ia dapat digunakan untuk menyelesaikan masalah klasifikasi dan regresi. *Random forest* juga merupakan algoritma yang sering digunakan karena cukup sederhana tetapi memiliki stabilitas yang mumpuni. *Random forest* merupakan salah satu model *machine learning* yang termasuk ke dalam kategori *ensemble (group) learning*. Proyek ini menggunakan [sklearn.ensemble.RandomForestRegressor](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html) dengan memasukkan X_train dan y_train dalam membangun model. Parameter yang digunakan pada proyek ini adalah :
     + `n_estimators` = Jumlah maksimum estimator di mana boosting dihentikan.
     + `max_depth` = Kedalaman maksimum setiap tree.
     + `random_state` = Mengontrol seed acak yang diberikan pada setiap base_estimator pada setiap iterasi boosting.
